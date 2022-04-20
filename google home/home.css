@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+#container {
+  width: 580px;
+  margin: 140px auto 0;
+  text-align: center;
+}
+h1#logo {
+  width: 269px;
+  height: 95px;
+  background: url(IMG/google.png) top left no-repeat;
+  background-size: 100%;
+  text-indent: -9999px;
+  margin: 0 auto;
+}
+input[type="text"] {
+  width: 566px;
+  padding: 7px;
+  margin: 25px 0 18px;
+  border: solid 1px #ccc;
+  font-size: 16px;
+  border-radius: 20px;
+}
+input[type="text"]:hover {
+  border-color: #aaa;
+}
+input[type="submit"] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+small {
+  display: block;
+  margin: 10px 0 0 0;
+  font-size: 12px;
+}
+a:link,
+a:visited {
+  color: dodgerblue;
+}
+nav#header {
+  text-align: right;
+  padding: 20px;
+}
+nav#header ul li {
+  display: inline;
+}
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited {
+  color: #555;
+  text-decoration: none;
+  padding: 10px;
+}
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+footer {
+  background: #eee;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.Nigeria {
+  background: #eee;
+  position: relative;
+  top: 111px;
+  font-size: 15px;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+  padding: 15px 30px;
+}
+footer nav {
+  padding: 20px;
+}
+footer nav ul li {
+  display: inline;
+}
+footer nav ul {
+  float: left;
+}
+footer nav ul.right_links {
+  float: right;
+  text-align: right;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.carbon {
+  text-align: center;
+  position: relative;
+  left: 200px;
+  font-size: 14px;
+}
+.leaf {
+  position: relative;
+  top: 6px;
+}
+#language {
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+#language:hover {
+  text-decoration: underline;
+}
+.carl {
+  color: blue;
+  font-size: 16px;
+  position: relative;
+  left: 150px;
+  bottom: 45px;
+  font-style: italic;
+}
+#by {
+  color: red;
+  font-size: 11px;
+  font-style: normal;
+}
+#language a:hover {
+  text-decoration: underline;
+}
